@@ -1,0 +1,38 @@
+<RCC>
+  <qresource prefix="/ui/">
+    <file>icons/_easter_egg.png</file>
+    <file>icons/Area Chart.png</file>
+    <file>icons/Bar Chart.png</file>
+    <file>icons/Calculator.png</file>
+    <file>icons/Cancel 2.png</file>
+    <file>icons/Create New.png</file>
+    <file>icons/Delete.png</file>
+    <file>icons/Design.png</file>
+    <file>icons/Edit.png</file>
+    <file>icons/Enter Key.png</file>
+    <file>icons/Error.png</file>
+    <file>icons/FAQ.png</file>
+    <file>icons/Checkmark.png</file>
+    <file>icons/Info.png</file>
+    <file>icons/Key.png</file>
+    <file>icons/Line Chart.png</file>
+    <file>icons/Menu.png</file>
+    <file>icons/Minus.png</file>
+    <file>icons/Plus.png</file>
+    <file>icons/Ratings.png</file>
+    <file>icons/Refresh.png</file>
+    <file>icons/Rock.png</file>
+    <file>icons/Save as.png</file>
+    <file>icons/Settings.png</file>
+    <file>icons/Spinner Frame 1.png</file>
+    <file>icons/Spinner Frame 2.png</file>
+    <file>icons/Spinner Frame 3.png</file>
+    <file>icons/Spinner Frame 4.png</file>
+    <file>icons/Spinner Frame 5.png</file>
+    <file>icons/Spinner Frame 6.png</file>
+    <file>icons/Spinner Frame 7.png</file>
+    <file>icons/Spinner Frame 8.png</file>
+    <file>icons/Tangent.png</file>
+    <file>icons/User Manual.png</file>
+  </qresource>
+</RCC>

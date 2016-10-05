@@ -1,6 +1,0 @@
-C:\AGeo\AGeo\bin\Debug\AGeo.exe.config
-C:\AGeo\AGeo\obj\Debug\AGeo.csprojResolveAssemblyReference.cache
-C:\AGeo\AGeo\bin\Debug\AGeo.exe
-C:\AGeo\AGeo\bin\Debug\AGeo.pdb
-C:\AGeo\AGeo\obj\Debug\AGeo.exe
-C:\AGeo\AGeo\obj\Debug\AGeo.pdb
