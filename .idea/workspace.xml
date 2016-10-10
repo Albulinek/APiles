@@ -2,33 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="393e5b43-308a-4e34-8cee-1d99163223e9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/main.ui" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Micha.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/icons.qrc" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AGeo/.vs/AGeo/v14/.suo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AGeo/AGeo.csproj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AGeo/AGeo.sln" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AGeo/App.config" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AGeo/Files.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AGeo/Program.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AGeo/Properties/AssemblyInfo.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AGeo/bin/Debug/AGeo.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AGeo/bin/Debug/AGeo.exe.config" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AGeo/bin/Debug/AGeo.pdb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AGeo/bin/Debug/AGeo.vshost.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AGeo/bin/Debug/AGeo.vshost.exe.config" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AGeo/bin/Debug/AGeo.vshost.exe.manifest" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AGeo/bin/Debug/Test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AGeo/obj/Debug/AGeo.csproj.FileListAbsolute.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AGeo/obj/Debug/AGeo.csprojResolveAssemblyReference.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AGeo/obj/Debug/AGeo.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AGeo/obj/Debug/AGeo.pdb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AGeo/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AGeo/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AGeo/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AGeo/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/icons_rc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ui/.uiModifiyTimes" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui/__init__.py" afterPath="$PROJECT_DIR$/ui/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui/main.py" afterPath="$PROJECT_DIR$/ui/main.py" />
     </list>
     <ignored path="AGeo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,24 +39,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ui/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="45" column="58" selection-start-line="45" selection-start-column="58" selection-end-line="45" selection-end-column="58" />
+            <state relative-caret-position="287">
+              <caret line="53" column="92" selection-start-line="53" selection-start-column="92" selection-end-line="53" selection-end-column="92" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="icons_rc.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/icons_rc.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23239">
-              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -106,15 +74,16 @@
         <option value="$PROJECT_DIR$/ui/icons.qrc" />
         <option value="$PROJECT_DIR$/ui/main.py" />
         <option value="$PROJECT_DIR$/ui/icons_rc.py" />
-        <option value="$PROJECT_DIR$/ui/__init__.py" />
         <option value="$PROJECT_DIR$/icons_rc.py" />
+        <option value="$PROJECT_DIR$/ui/__init__.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -141,8 +110,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -185,12 +152,14 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="C:/WCgame" />
+    <property name="last_opened_file_path" value="E:/WCGame" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -388,16 +357,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947807" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11904762" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3207856" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -407,6 +375,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -428,8 +397,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+        <state relative-caret-position="289">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
@@ -438,15 +407,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ui/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        <state relative-caret-position="697">
+          <caret line="45" column="58" selection-start-line="45" selection-start-column="58" selection-end-line="45" selection-end-column="58" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/newWindow.py">
+    <entry file="file://$PROJECT_DIR$/icons_rc.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -474,46 +443,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/newWindow.py">
+    <entry file="file://$PROJECT_DIR$/newWindow.py" />
+    <entry file="file://$PROJECT_DIR$/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="85">
+          <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/newWindow.py">
+    <entry file="file://$PROJECT_DIR$/ui/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-74">
-          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-          <folding />
+        <state relative-caret-position="255">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/newWindow.py" />
+    <entry file="file://$PROJECT_DIR$/newWindow.py" />
     <entry file="file://$PROJECT_DIR$/ui/.uiModifiyTimes">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui/icons/icons.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-510">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui/window.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/icons/icons.py" />
+    <entry file="file://$PROJECT_DIR$/ui/window.py" />
     <entry file="file://$PROJECT_DIR$/ui/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2227">
@@ -522,14 +483,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui/icons_rc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/icons_rc.py" />
     <entry file="file://$PROJECT_DIR$/ui/icons.qrc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -548,21 +502,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui/__init__.py">
+    <entry file="file://$PROJECT_DIR$/icons_rc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="45" column="58" selection-start-line="45" selection-start-column="58" selection-end-line="45" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/icons_rc.py">
+    <entry file="file://$PROJECT_DIR$/ui/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23239">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="287">
+          <caret line="53" column="92" selection-start-line="53" selection-start-column="92" selection-end-line="53" selection-end-column="92" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
