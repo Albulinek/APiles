@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'ui/main.ui'
 #
-# Created: Thu Oct 13 19:29:30 2016
+# Created: Wed Oct 19 12:05:36 2016
 #      by: pyside-uic 0.2.15 running on PySide 1.2.4
 #
 # WARNING! All changes made in this file will be lost!
@@ -117,6 +117,7 @@ class Ui_MainWindow(object):
         self.tabWidget.setCurrentIndex(0)
         QtCore.QObject.connect(self.addLayerButton, QtCore.SIGNAL("clicked()"), MainWindow.addLayer)
         QtCore.QObject.connect(self.removeLayerButton, QtCore.SIGNAL("clicked()"), MainWindow.removeLayer)
+        QtCore.QObject.connect(self.layersView, QtCore.SIGNAL("clicked(QModelIndex)"), MainWindow.findRow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
         MainWindow.setTabOrder(self.pilesGraphicsView, self.tabWidget)
 
