@@ -10,8 +10,8 @@ class MainWindow(QtGui.QMainWindow, mainWindow.Ui_MainWindow):
     def __init__(self):
         super(self.__class__, self).__init__()
 
-        db = QtSql.QSqlDatabase.addDatabase('QSQLITE')
-        db.setDatabaseName('layers.dbx')
+        self.db = QtSql.QSqlDatabase.addDatabase('QSQLITE')
+        self.db.setDatabaseName('layers.dbx')
 
         self.model = QtSql.QSqlTableModel()
         self.delrow = -1
@@ -20,7 +20,8 @@ class MainWindow(QtGui.QMainWindow, mainWindow.Ui_MainWindow):
         self.initializeModel()
 
     def addLayer(self):
-        add = self.model.insertRows(self.model.rowCount(), 1)
+        QtSql.QSqlQuery(self.db).exec_("insert into layers values('NULL', 'Default', 0, 0)")
+        self.initializeModel()
 
     def removeLayer(self):
         self.model.removeRow(self.layersView.currentIndex().row())

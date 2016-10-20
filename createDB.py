@@ -20,7 +20,7 @@ def createDB():
         print('Execute query..')
 
         query.exec_("CREATE TABLE layers(id int primary key, name varchar(20), bearing int, thickness int)")
-        # query.exec_("insert into layers values(1, 'Default', 0, 0)")
+        # query.exec_("insert into layers values('NULL', 'Default', 0, 0)")
 
         return True
 
