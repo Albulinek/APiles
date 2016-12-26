@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'ui/main.ui'
 #
-# Created: Wed Oct 19 19:22:19 2016
+# Created: Thu Oct 20 20:38:32 2016
 #      by: pyside-uic 0.2.15 running on PySide 1.2.4
 #
 # WARNING! All changes made in this file will be lost!
@@ -32,9 +32,6 @@ class Ui_MainWindow(object):
         self.verticalLayout.setObjectName("verticalLayout")
         self.gridLayout = QtGui.QGridLayout()
         self.gridLayout.setObjectName("gridLayout")
-        self.layersView = QtGui.QTableView(self.layersTab)
-        self.layersView.setObjectName("layersView")
-        self.gridLayout.addWidget(self.layersView, 2, 0, 1, 3)
         self.removeLayerButton = QtGui.QPushButton(self.layersTab)
         icon1 = QtGui.QIcon()
         icon1.addPixmap(QtGui.QPixmap(":/ui/icons/Minus.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
@@ -47,6 +44,9 @@ class Ui_MainWindow(object):
         self.addLayerButton.setIcon(icon2)
         self.addLayerButton.setObjectName("addLayerButton")
         self.gridLayout.addWidget(self.addLayerButton, 1, 0, 1, 2)
+        self.layersView = QtGui.QTableView(self.layersTab)
+        self.layersView.setObjectName("layersView")
+        self.gridLayout.addWidget(self.layersView, 2, 0, 1, 3)
         self.verticalLayout.addLayout(self.gridLayout)
         self.tabWidget.addTab(self.layersTab, "")
         self.pilesTab = QtGui.QWidget()
