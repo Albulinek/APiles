@@ -1,11 +1,11 @@
 import sys
-from PySide import QtGui, QtCore
-import mainWindow as m
-
+from PySide import QtGui, QtCore, QtSql
+import mainDialog as d
 
 def main():
     application = QtGui.QApplication(sys.argv)
-    mainWnd = m.MainWindow()
+
+    mainWnd = d.MainDialog()
     mainWnd.show()
     sys.exit(application.exec_())
 

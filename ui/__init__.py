@@ -7,8 +7,9 @@ from xml.etree import ElementTree as ET
 
 
 # Start at ui/
+# This code was provided by bc.Ladislav Dobrovský
 
-ui_files = ['main']
+ui_files = ['main', 'start', 'mainMasopust']
 rc_files = ['icons']
 
 path = sys.exec_prefix + '\\Scripts'
@@ -17,7 +18,7 @@ isForce = False
 # isForce = True
 
 # UIC\
-
+"""
 try:
     inFile = open('ui/.uiModifiyTimes', 'rb')
     modifyTimes = pickle.load(inFile)
@@ -60,3 +61,4 @@ for rc_file in rc_files:
 # save modification times
 with open('ui/.uiModifiyTimes', 'wb') as output:
     pickle.dump(modifyTimes, output, 2)
+"""

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>StartDialog</class>
+ <widget class="QDialog" name="StartDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>382</width>
+    <height>101</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>382</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Zvolte typ výpočtu...</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="icons.qrc">
+    <normaloff>:/ui/icons/Rock.png</normaloff>:/ui/icons/Rock.png</iconset>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="text">
+        <string>Dle EN (připraveno pro implementaci)</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="MasopustPileButton">
+       <property name="text">
+        <string>Pilota dle Masopusta</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="HorizontalPileButton">
+       <property name="text">
+        <string>Horizontálně zatížená pilota</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="icons.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>HorizontalPileButton</sender>
+   <signal>clicked()</signal>
+   <receiver>StartDialog</receiver>
+   <slot>openHorizontalPiles()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>354</x>
+     <y>74</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>380</x>
+     <y>39</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>MasopustPileButton</sender>
+   <signal>clicked()</signal>
+   <receiver>StartDialog</receiver>
+   <slot>openMasopustPiles()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>86</x>
+     <y>49</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>4</x>
+     <y>63</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>openHorizontalPiles()</slot>
+  <slot>openMasopustPiles()</slot>
+ </slots>
+</ui>
